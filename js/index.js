@@ -82,7 +82,7 @@ function playIt() {
             this.$discoCardTxtWrapper = $('#disco-card-text-wrapper'); this.$discoCardTxt = this.$discoCardTxtWrapper.find('#disco-card-text');
             this.$hcyaCardTxtWrapper = $('#hcya-card-text-wrapper'); this.$hcyaCardTxt = this.$hcyaCardTxtWrapper.find('#hcya-card-text');
             this.$brevitestCardTxtWrapper = $('#brevitest-card-text-wrapper'); this.$brevitestCardTxt = this.$brevitestCardTxtWrapper.find('#brevitest-card-text');
-            this.$rudsspCardTxtWrapper = $('#rudssp-card-text-wrapper'); this.$rudsspCardTxt = this.$brudsspCardTxtWrapper.find('#rudssp-card-text');
+            this.$rudsspCardTxtWrapper = $('#rudssp-card-text-wrapper'); this.$rudsspCardTxt = this.$rudsspCardTxtWrapper.find('#rudssp-card-text');
         },
         bindEvents: function () {
             this.$window.on('scroll touchmove', this.windowScroll.bind(this));

@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 80%;
+    padding-top: 5%;
+}
+
+.title {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+a {
+  color: rgb(38,123,195);
+}
+
+.website-link {
+    text-decoration: underline;
+}
+
+.section {
+  color: rgb(38,123,195);
+  font-weight: 500;
+}
+
+.bodyText {
+  color: gray;
+}
+
+.date {
+  color: DarkGray;
+  line-height: 2;
+}
+
+.header {
+  margin: 0;
+}

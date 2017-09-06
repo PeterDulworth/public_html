@@ -3,7 +3,7 @@ var togglr = 0
 function playIt() {
     if (togglr % 2 == 0) {
       console.log('1')
-      document.getElementById("embed").innerHTML="<audio loop autoplay src='http://www.peterdulworth.com/peterdulworth/audio/weird.mp3'/>"
+      document.getElementById("embed").innerHTML="<audio loop autoplay src='http://www.peterdulworth.com/audio/weird.mp3'/>"
       togglr += 1
     }
     else {
@@ -204,7 +204,7 @@ function playIt() {
                 $( '#cy' ).show()
             }
             if (this.audioTogglr % 2 == 0) {
-                document.getElementById("embed").innerHTML="<audio loop autoplay src='http://www.peterdulworth.com/peterdulworth/audio/weird.mp3'/>"
+                document.getElementById("embed").innerHTML="<audio loop autoplay src='http://www.peterdulworth.com/audio/weird.mp3'/>"
                 this.audioTogglr += 1
                 this.$img.show()
             }

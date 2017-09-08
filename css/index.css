@@ -164,7 +164,9 @@ a:active {
 }
 
 #resume-link {
-  color: gray;
+  /*color: gray;*/
+  color: rgb(234,234,234);
+  /*color: rgb(221,221,221);*/
 }
 
 #fireworks-wrapper:hover #fireworks {

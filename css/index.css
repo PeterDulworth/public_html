@@ -167,7 +167,7 @@ a:active {
   color: gray;
 }
 
-#fireworks { border: red 1px dashed;
+#fireworks {
   color: #e8e8e8;
   font-size: 3vmin;
   float:left;

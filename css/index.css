@@ -165,11 +165,10 @@ a:active {
 
 #resume-link {
   color: gray;
-  /*color: rgb(210,210,210);*/
 }
 
 #fireworks-wrapper:hover #fireworks {
-  display: block;
+  visibility: visible;
 }
 
 #fireworks { /*border: red 1px dashed;*/
@@ -180,8 +179,12 @@ a:active {
   width: 30vmin; height: 6vmin;
   line-height: 6vmin;
   padding: 0;
-  display: none;
+  visibility: hidden;
   z-index: 10000000;
+}
+
+#fireworks-wrapper {
+  border: 1px dashed blue;
 }
 
 /*#fireworks:hover {

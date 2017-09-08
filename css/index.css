@@ -155,7 +155,7 @@ a:active {
 }
 
 #resume { /*border: red 1px dashed;*/
-  color: #e8e8e8;
+  color: #eee;
   font-size: 3vmin;
   float:right;
   text-align: center;
@@ -172,6 +172,11 @@ a:active {
   width: 30vmin; height: 6vmin;
   line-height: 6vmin;
   padding: 0;
+  visibility: hidden;
+}
+
+#fireworks:hover {
+  visibility: visible;
 }
 
 .blueShadow {

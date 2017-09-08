@@ -164,6 +164,16 @@ a:active {
   padding: 0;
 }
 
+#morefireworks { /*border: red 1px dashed;*/
+  color: #e8e8e8;
+  font-size: 3vmin;
+  float:left;
+  text-align: center;
+  width: 30vmin; height: 6vmin;
+  line-height: 6vmin;
+  padding: 0;
+}
+
 .blueShadow {
   text-shadow: 1px 1px red;
 }

@@ -238,7 +238,7 @@ path {
   margin-bottom: 20px;
   color: white;
   /*background-color: #c6dbef;*/ /*lighter blue*/
-  background-color: rgba(107,174,214, 0.5);
+  background-color: rgba(107,174,214, 0.6);
   /*background-color: #61bffc;*/
   text-align: center;
   font-size: 8vmin;
@@ -265,8 +265,8 @@ path {
   /*color: white !important;*/
   font-size: 4vmin;
   /*background-color:#eaeaea !important;*/
-  background-color:#003b76; 
-  color:#003b76;"
+  background-color:#003b76 !important; 
+  color:#003b76 !important;
 }
 
 .card-header-arrow-up {

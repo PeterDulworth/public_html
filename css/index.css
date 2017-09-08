@@ -262,9 +262,11 @@ path {
   display:inline-block;
   padding: 0 5px;
   border-radius: 4px;
-  color: white !important;
+  /*color: white !important;*/
   font-size: 4vmin;
-  background-color:#eaeaea !important;
+  /*background-color:#eaeaea !important;*/
+  background-color:#003b76; 
+  color:#003b76;"
 }
 
 .card-header-arrow-up {

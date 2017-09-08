@@ -167,6 +167,10 @@ a:active {
   color: gray;
 }
 
+#fireworks-wrapper:hover #fireworks {
+  display: block;
+}
+
 #fireworks { /*border: red 1px dashed;*/
   color: #e8e8e8;
   font-size: 3vmin;
@@ -175,14 +179,14 @@ a:active {
   width: 30vmin; height: 6vmin;
   line-height: 6vmin;
   padding: 0;
-  visibility: visible;
+  display: none;
   z-index: 10000000;
 }
 
-#fireworks:hover {
+/*#fireworks:hover {
   visibility: visible;
   border: red 1px dashed;
-}
+}*/
 
 .blueShadow {
   text-shadow: 1px 1px red;

@@ -180,7 +180,7 @@ a:active {
   line-height: 6vmin;
   padding: 0;
   visibility: visible;
-  display: inline-block;
+  display: inline;
   z-index: 10000000;
 }
 

@@ -172,12 +172,12 @@ a:active {
   display: block;
 }
 
-#fireworks { /*border: red 1px dashed;*/
+#fireworks { border: red 1px dashed;
   color: #e8e8e8;
   font-size: 3vmin;
   float:left;
   text-align: center;
-  width: 20vmin; height: 6vmin;
+  width: 10vmin; height: 6vmin;
   line-height: 6vmin;
   padding: 0;
   display: none;

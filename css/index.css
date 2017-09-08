@@ -155,13 +155,16 @@ a:active {
 }
 
 #resume { /*border: red 1px dashed;*/
-  color: gray;
   font-size: 3vmin;
   float:right;
   text-align: center;
   width: 30vmin; height: 6vmin;
   line-height: 6vmin;
   padding: 0;
+}
+
+#resume-link {
+  color: gray;
 }
 
 #fireworks { /*border: red 1px dashed;*/
@@ -172,12 +175,13 @@ a:active {
   width: 30vmin; height: 6vmin;
   line-height: 6vmin;
   padding: 0;
-  visibility: hidden;
+  display: none;
   z-index: 10000000;
 }
 
 #fireworks:hover {
-  visibility: visible;
+  display: inline;
+  border: red 1px dashed;
 }
 
 .blueShadow {

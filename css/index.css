@@ -155,7 +155,7 @@ a:active {
 }
 
 #resume { /*border: red 1px dashed;*/
-  color: #eee;
+  color: gray;
   font-size: 3vmin;
   float:right;
   text-align: center;

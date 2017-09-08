@@ -237,7 +237,8 @@ path {
   line-height: 10vmin;
   margin-bottom: 20px;
   color: white;
-  background-color:#c6dbef;
+  background-color: #c6dbef;
+  background-color: rgb(107,174,214);
   /*background-color: #61bffc;*/
   text-align: center;
   font-size: 8vmin;

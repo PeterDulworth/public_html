@@ -154,11 +154,11 @@ a:active {
   text-shadow: 2px 2px #6baed6;
 }
 
-#resume { border: red 1px dashed;
+#resume { /*border: red 1px dashed;*/
   font-size: 3vmin;
   float:right;
   text-align: center;
-  width: 20vmin; height: 6vmin;
+  width: 15vmin; height: 6vmin;
   line-height: 6vmin;
   padding: 0;
 }

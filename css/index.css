@@ -179,7 +179,7 @@ a:active {
   width: 30vmin; height: 6vmin;
   line-height: 6vmin;
   padding: 0;
-  visibility: hidden;
+  visibility: visible;
   z-index: 10000000;
 }
 

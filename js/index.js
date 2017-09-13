@@ -81,7 +81,7 @@ function playIt() {
             this.$hcya = $('#hcya'); this.$hcyaCardTxtWrapper = $('#hcya-card-text-wrapper'); this.$hcyaCardTxt = this.$hcyaCardTxtWrapper.find('#hcya-card-text');
             this.$brevitest = $('#brevitest'); this.$brevitestCardTxtWrapper = $('#brevitest-card-text-wrapper'); this.$brevitestCardTxt = this.$brevitestCardTxtWrapper.find('#brevitest-card-text');
             this.$rudssp = $('#rudssp'); this.$rudsspCardTxtWrapper = $('#rudssp-card-text-wrapper'); this.$rudsspCardTxt = this.$rudsspCardTxtWrapper.find('#rudssp-card-text');        
-            this.$discoLogo = $('#discoLogo');
+            this.$discoLogo = $('#discoLogo'); this.$discoURL = 'http://www.google.com';
         },
         bindEvents: function () {
             this.$window.on('scroll touchmove', this.windowScroll.bind(this));
@@ -113,7 +113,7 @@ function playIt() {
             this.$rudssp.on('mouseleave', {arrowState: this.rudsspArrowState, cardWrapper: this.$rudsspCardTxtWrapper}, this.cardMouseLeave.bind(this));
             this.$rudssp.on('click',      {arrowState: this.rudsspArrowState, cardTxt: this.$rudsspCardTxt}, this.cardClick.bind(this));
 
-            this.$discoLogo.on('click', window.open('http://www.google.com','_blank'))
+            this.$discoLogo.on('click', {url: this.$discoURL}, this.$openURL.bind(this));
 
             this.$fireworks.on('click', this.fireworks.bind(this));
         },
@@ -220,6 +220,9 @@ function playIt() {
                 this.audioTogglr += 1
                 this.$img.hide()
             }
+        },
+        openURL: function (e) {
+            window.open(e.data.url,'_blank')
         },
         scrollToVal: function (e) {
             console.log('mainpagemargin scroltoval:' + this.mainPageMargin);

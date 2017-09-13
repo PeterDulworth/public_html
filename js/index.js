@@ -75,13 +75,16 @@ function playIt() {
             this.$educationNavBtn = $('#education-nav-btn');
             this.$extracurricularNavBtn = $('#extracurricular-nav-btn');
             this.$experienceNavBtn = $('#experience-nav-btn');
-            this.$thomasCardTxtWrapper = $('#thomas-card-text-wrapper'); this.$thomasCardTxt = this.$thomasCardTxtWrapper.find('#thomas-card-text');
             this.$riceCardTxtWrapper = $('#rice-card-text-wrapper'); this.$riceCardTxt = this.$riceCardTxtWrapper.find('#rice-card-text');
             this.$discoCardTxtWrapper = $('#disco-card-text-wrapper'); this.$discoCardTxt = this.$discoCardTxtWrapper.find('#disco-card-text');
             this.$hcyaCardTxtWrapper = $('#hcya-card-text-wrapper'); this.$hcyaCardTxt = this.$hcyaCardTxtWrapper.find('#hcya-card-text');
             this.$brevitestCardTxtWrapper = $('#brevitest-card-text-wrapper'); this.$brevitestCardTxt = this.$brevitestCardTxtWrapper.find('#brevitest-card-text');
             this.$rudsspCardTxtWrapper = $('#rudssp-card-text-wrapper'); this.$rudsspCardTxt = this.$rudsspCardTxtWrapper.find('#rudssp-card-text');
+            this.$rice = $('#rice');
+            this.$disco = $('#disco');
             this.$hcya = $('#hcya');
+            this.$brevitest = $('#brevitest');
+            this.$rudssp = $('#rudssp');
         },
         bindEvents: function () {
             this.$window.on('scroll touchmove', this.windowScroll.bind(this));
@@ -93,33 +96,25 @@ function playIt() {
             this.$extracurricularNavBtn.on('click', {scrollTop: $("#extracurricular").offset().top - this.$nav.outerHeight() - 20, duration: 800}, this.scrollToVal.bind(this));
             this.$experienceNavBtn.on('click', {scrollTop: $("#experience").offset().top - this.$nav.outerHeight() - 20, duration: 800}, this.scrollToVal.bind(this));
 
-            this.$thomasCardTxtWrapper.on('mouseenter', {arrowState: this.thomasArrowState, cardWrapper: this.$thomasCardTxtWrapper}, this.cardMouseEnter.bind(this));
-            this.$thomasCardTxtWrapper.on('mouseleave', {arrowState: this.thomasArrowState, cardWrapper: this.$thomasCardTxtWrapper}, this.cardMouseLeave.bind(this));
-            this.$thomasCardTxtWrapper.on('click',      {arrowState: this.thomasArrowState, cardTxt: this.$thomasCardTxt}, this.cardClick.bind(this));
+            this.$rice.on('mouseenter', {arrowState: this.riceArrowState, cardWrapper: this.$riceCardTxtWrapper}, this.cardMouseEnter.bind(this));
+            this.$rice.on('mouseleave', {arrowState: this.riceArrowState, cardWrapper: this.$riceCardTxtWrapper}, this.cardMouseLeave.bind(this));
+            this.$rice.on('click',      {arrowState: this.riceArrowState, cardTxt: this.$riceCardTxt}, this.cardClick.bind(this));
 
-            this.$riceCardTxtWrapper.on('mouseenter', {arrowState: this.riceArrowState, cardWrapper: this.$riceCardTxtWrapper}, this.cardMouseEnter.bind(this));
-            this.$riceCardTxtWrapper.on('mouseleave', {arrowState: this.riceArrowState, cardWrapper: this.$riceCardTxtWrapper}, this.cardMouseLeave.bind(this));
-            this.$riceCardTxtWrapper.on('click',      {arrowState: this.riceArrowState, cardTxt: this.$riceCardTxt}, this.cardClick.bind(this));
-
-            this.$discoCardTxtWrapper.on('mouseenter', {arrowState: this.discoArrowState, cardWrapper: this.$discoCardTxtWrapper}, this.cardMouseEnter.bind(this));
-            this.$discoCardTxtWrapper.on('mouseleave', {arrowState: this.discoArrowState, cardWrapper: this.$discoCardTxtWrapper}, this.cardMouseLeave.bind(this));
-            this.$discoCardTxtWrapper.on('click',      {arrowState: this.discoArrowState, cardTxt: this.$discoCardTxt}, this.cardClick.bind(this));
-
-            this.$hcyaCardTxtWrapper.on('mouseenter', {arrowState: this.hcyaArrowState, cardWrapper: this.$hcyaCardTxtWrapper}, this.cardMouseEnter.bind(this));
-            this.$hcyaCardTxtWrapper.on('mouseleave', {arrowState: this.hcyaArrowState, cardWrapper: this.$hcyaCardTxtWrapper}, this.cardMouseLeave.bind(this));
-            this.$hcyaCardTxtWrapper.on('click',      {arrowState: this.hcyaArrowState, cardTxt: this.$hcyaCardTxt}, this.cardClick.bind(this));
-
-            this.$brevitestCardTxtWrapper.on('mouseenter', {arrowState: this.brevitestArrowState, cardWrapper: this.$brevitestCardTxtWrapper}, this.cardMouseEnter.bind(this));
-            this.$brevitestCardTxtWrapper.on('mouseleave', {arrowState: this.brevitestArrowState, cardWrapper: this.$brevitestCardTxtWrapper}, this.cardMouseLeave.bind(this));
-            this.$brevitestCardTxtWrapper.on('click',      {arrowState: this.brevitestArrowState, cardTxt: this.$brevitestCardTxt}, this.cardClick.bind(this));
-
-            this.$rudsspCardTxtWrapper.on('mouseenter', {arrowState: this.rudsspArrowState, cardWrapper: this.$rudsspCardTxtWrapper}, this.cardMouseEnter.bind(this));
-            this.$rudsspCardTxtWrapper.on('mouseleave', {arrowState: this.rudsspArrowState, cardWrapper: this.$rudsspCardTxtWrapper}, this.cardMouseLeave.bind(this));
-            this.$rudsspCardTxtWrapper.on('click',      {arrowState: this.rudsspArrowState, cardTxt: this.$rudsspCardTxt}, this.cardClick.bind(this));
+            this.$disco.on('mouseenter', {arrowState: this.discoArrowState, cardWrapper: this.$discoCardTxtWrapper}, this.cardMouseEnter.bind(this));
+            this.$disco.on('mouseleave', {arrowState: this.discoArrowState, cardWrapper: this.$discoCardTxtWrapper}, this.cardMouseLeave.bind(this));
+            this.$disco.on('click',      {arrowState: this.discoArrowState, cardTxt: this.$discoCardTxt}, this.cardClick.bind(this));
 
             this.$hcya.on('mouseenter', {arrowState: this.hcyaArrowState, cardWrapper: this.$hcyaCardTxtWrapper}, this.cardMouseEnter.bind(this));
             this.$hcya.on('mouseleave', {arrowState: this.hcyaArrowState, cardWrapper: this.$hcyaCardTxtWrapper}, this.cardMouseLeave.bind(this));
             this.$hcya.on('click',      {arrowState: this.hcyaArrowState, cardTxt: this.$hcyaCardTxt}, this.cardClick.bind(this));
+
+            this.$brevitest.on('mouseenter', {arrowState: this.brevitestArrowState, cardWrapper: this.$brevitestCardTxtWrapper}, this.cardMouseEnter.bind(this));
+            this.$brevitest.on('mouseleave', {arrowState: this.brevitestArrowState, cardWrapper: this.$brevitestCardTxtWrapper}, this.cardMouseLeave.bind(this));
+            this.$brevitest.on('click',      {arrowState: this.brevitestArrowState, cardTxt: this.$brevitestCardTxt}, this.cardClick.bind(this));
+
+            this.$rudssp.on('mouseenter', {arrowState: this.rudsspArrowState, cardWrapper: this.$rudsspCardTxtWrapper}, this.cardMouseEnter.bind(this));
+            this.$rudssp.on('mouseleave', {arrowState: this.rudsspArrowState, cardWrapper: this.$rudsspCardTxtWrapper}, this.cardMouseLeave.bind(this));
+            this.$rudssp.on('click',      {arrowState: this.rudsspArrowState, cardTxt: this.$rudsspCardTxt}, this.cardClick.bind(this));
 
             this.$fireworks.on('click', this.fireworks.bind(this));
         },

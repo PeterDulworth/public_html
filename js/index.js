@@ -75,16 +75,13 @@ function playIt() {
             this.$educationNavBtn = $('#education-nav-btn');
             this.$extracurricularNavBtn = $('#extracurricular-nav-btn');
             this.$experienceNavBtn = $('#experience-nav-btn');
-            this.$riceCardTxtWrapper = $('#rice-card-text-wrapper'); this.$riceCardTxt = this.$riceCardTxtWrapper.find('#rice-card-text');
-            this.$discoCardTxtWrapper = $('#disco-card-text-wrapper'); this.$discoCardTxt = this.$discoCardTxtWrapper.find('#disco-card-text');
-            this.$hcyaCardTxtWrapper = $('#hcya-card-text-wrapper'); this.$hcyaCardTxt = this.$hcyaCardTxtWrapper.find('#hcya-card-text');
-            this.$brevitestCardTxtWrapper = $('#brevitest-card-text-wrapper'); this.$brevitestCardTxt = this.$brevitestCardTxtWrapper.find('#brevitest-card-text');
-            this.$rudsspCardTxtWrapper = $('#rudssp-card-text-wrapper'); this.$rudsspCardTxt = this.$rudsspCardTxtWrapper.find('#rudssp-card-text');
-            this.$rice = $('#rice');
-            this.$disco = $('#disco');
-            this.$hcya = $('#hcya');
-            this.$brevitest = $('#brevitest');
-            this.$rudssp = $('#rudssp');
+            
+            this.$rice = $('#rice'); this.$riceCardTxtWrapper = $('#rice-card-text-wrapper'); this.$riceCardTxt = this.$riceCardTxtWrapper.find('#rice-card-text');
+            this.$disco = $('#disco'); this.$discoCardTxtWrapper = $('#disco-card-text-wrapper'); this.$discoCardTxt = this.$discoCardTxtWrapper.find('#disco-card-text');
+            this.$hcya = $('#hcya'); this.$hcyaCardTxtWrapper = $('#hcya-card-text-wrapper'); this.$hcyaCardTxt = this.$hcyaCardTxtWrapper.find('#hcya-card-text');
+            this.$brevitest = $('#brevitest'); this.$brevitestCardTxtWrapper = $('#brevitest-card-text-wrapper'); this.$brevitestCardTxt = this.$brevitestCardTxtWrapper.find('#brevitest-card-text');
+            this.$rudssp = $('#rudssp'); this.$rudsspCardTxtWrapper = $('#rudssp-card-text-wrapper'); this.$rudsspCardTxt = this.$rudsspCardTxtWrapper.find('#rudssp-card-text');        
+            this.$discoLogo = $('#discoLogo');
         },
         bindEvents: function () {
             this.$window.on('scroll touchmove', this.windowScroll.bind(this));
@@ -115,6 +112,8 @@ function playIt() {
             this.$rudssp.on('mouseenter', {arrowState: this.rudsspArrowState, cardWrapper: this.$rudsspCardTxtWrapper}, this.cardMouseEnter.bind(this));
             this.$rudssp.on('mouseleave', {arrowState: this.rudsspArrowState, cardWrapper: this.$rudsspCardTxtWrapper}, this.cardMouseLeave.bind(this));
             this.$rudssp.on('click',      {arrowState: this.rudsspArrowState, cardTxt: this.$rudsspCardTxt}, this.cardClick.bind(this));
+
+            this.$discoLogo.on('click', window.open('http://www.google.com','_blank'))
 
             this.$fireworks.on('click', this.fireworks.bind(this));
         },

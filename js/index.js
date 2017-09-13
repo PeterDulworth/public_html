@@ -113,7 +113,7 @@ function playIt() {
             this.$rudssp.on('mouseleave', {arrowState: this.rudsspArrowState, cardWrapper: this.$rudsspCardTxtWrapper}, this.cardMouseLeave.bind(this));
             this.$rudssp.on('click',      {arrowState: this.rudsspArrowState, cardTxt: this.$rudsspCardTxt}, this.cardClick.bind(this));
 
-            this.$discoLogo.on('click', {url: this.$discoURL}, this.$openURL.bind(this));
+            this.$discoLogo.on('click', {url: this.$discoURL}, this.openURL.bind(this));
 
             this.$fireworks.on('click', this.fireworks.bind(this));
         },

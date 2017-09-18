@@ -1,16 +1,16 @@
- @font-face {
-    font-family: "Didot LT Std";
-    font-style: normal;
-    font-weight: 400;
-    src: local("DidotLTStd-Roman"), local('DidotLTStd-Roman'), url("https://d3jpwrui3eswtl.cloudfront.net/didotltstd/DidotLTStd-Roman-Regular.otf") format('opentype');
-  }
+@font-face {
+  font-family: "Didot LT Std";
+  font-style: normal;
+  font-weight: 400;
+  src: local("DidotLTStd-Roman"), local('DidotLTStd-Roman'), url("https://d3jpwrui3eswtl.cloudfront.net/didotltstd/DidotLTStd-Roman-Regular.otf") format('opentype');
+}
 
-  @font-face {
-    font-family: "Burgues Script";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Burgues Script"), local('BurguesScript'), url("https://d3jpwrui3eswtl.cloudfront.net/burguesscript/BurguesScript-Regular.otf") format('opentype');
-  }
+@font-face {
+  font-family: "Burgues Script";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Burgues Script"), local('BurguesScript'), url("https://d3jpwrui3eswtl.cloudfront.net/burguesscript/BurguesScript-Regular.otf") format('opentype');
+}
 
 
 body {

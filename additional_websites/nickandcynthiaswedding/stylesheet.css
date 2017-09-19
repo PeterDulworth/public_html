@@ -21,11 +21,11 @@ body {
 }
 
 .header {
-  letter-spacing:2.1px;
-  font-size:60px;
+  /*letter-spacing:2.1px;*/
+  font-size:55px;
   margin:0;
   font-family:"Didot LT Std";
-  font-weight:400;
+  font-weight:450;
   font-style:normal;
 }
 

@@ -39,6 +39,10 @@ body {
   font-size: 38px;
 }
 
+.nav {
+  font-size: 120%;
+}
+
 .cover-photo {
   display:block;
   width:100%;

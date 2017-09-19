@@ -22,21 +22,21 @@ body {
 
 .header {
   /*letter-spacing:2.1px;*/
-  font-size:55px;
-  margin:0;
-  font-family:"Didot LT Std";
-  font-weight:450;
-  font-style:bold;
+  font-size: 55px;
+  margin: 0;
+  font-family: "Didot LT Std";
+  font-weight: 450;
+  font-style: normal;
 }
 
 .header-divider {
-  font-family:"Burgues Script";
-  font-weight:400;
-  font-style:normal;
-  line-height:1;
-  text-transform:none;
-  letter-spacing:normal;
-  font-size:37.800000000000004px;
+  font-family: "Burgues Script";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 38px;
 }
 
 .cover-photo {

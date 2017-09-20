@@ -4,8 +4,8 @@
 	//Connect To Database
 	
 	$hostname="23.229.174.72";
-	$username="peter";
-	$password="Lamborghini97";
+	$username="peter2	";
+	$password="franz";
 	$dbname="nickAndCynthiaDB";
 	$usertable="your_tablename";
 	$yourfield = "your_field";

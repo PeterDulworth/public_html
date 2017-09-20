@@ -3,7 +3,7 @@
 	
 	//Connect To Database
 	
-	$hostname="23.229.174.72";
+	$hostname="localhost";
 	$username="peter2	";
 	$password="franz";
 	$dbname="nickAndCynthiaDB";

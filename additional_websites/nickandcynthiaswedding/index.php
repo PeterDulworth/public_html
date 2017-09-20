@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
-	$username = "username";
-	$password = "password";
+	$username = "peter";
+	$password = "Lamborghini97";
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password);
@@ -11,7 +11,6 @@
 	    die("Connection failed: " . mysqli_connect_error());
 	}
 	echo "Connected successfully";
-
 
 	// sql to create table
 	$sql = "CREATE TABLE MyGuests (

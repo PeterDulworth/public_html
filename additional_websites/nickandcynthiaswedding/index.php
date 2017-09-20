@@ -1,11 +1,33 @@
 <?php
+$servername = "23.229.174.72";
+$username = "peter2";
+$password = "franz";
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=myDB", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $sql = "CREATE DATABASE myDBPDO";
+    // use exec() because no results are returned
+    $conn->exec($sql);
+    echo "Database created successfully<br>";
+    }
+catch(PDOException $e)
+    {
+    echo $sql . "<br>" . $e->getMessage();
+    }
+
+$conn = null;
+?>
+
+<?php
 	//Sample Database Connection Syntax for PHP and MySQL.
 	
 	//Connect To Database
 	
-	$hostname="localhost";
-	$username="peter2	";
-	$password="franz";
+	$hostname="23.229.174.72";
+	$username="peter";
+	$password="Lamborghini97";
 	$dbname="nickAndCynthiaDB";
 	$usertable="your_tablename";
 	$yourfield = "your_field";

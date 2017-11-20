@@ -43,7 +43,7 @@
 		<!-- <div class="col col-2 mx-auto"><img src="imgs/ampersand.png" class="mx-auto d-block"></div><br><br> -->
 		<!-- <br><br><br><br><br> -->
 		<!-- <div class="col col-12"><h3 class="text-center">Our Story</h3></div> -->
-    <div class="col col-12"></div>
+    <div class="col col-12"></div><br>
     <div class="col col-6">
       <h2>EVENTS</h2>
       <h3>Wedding Celebration</h3>        

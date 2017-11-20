@@ -44,9 +44,18 @@
 		<!-- <br><br><br><br><br> -->
 		<!-- <div class="col col-12"><h3 class="text-center">Our Story</h3></div> -->
 
-    <div class="col col-12"><h2>EVENTS</h2></div>    
+    <div class="col col-6">
+      <h2>EVENTS</h2>
+      <h3>Wedding Celebration</h3>        
+      Holy Rosary Catholic Church
+      3617 Milam St, Houston, TX 77002
+      <h3>Wedding Reception</h3>
+      Evelyn’s park
+      4400 Bellaire Blvd, Bellaire, TX 77401
+    </div>    
+    <div class="col col-6"><img src="imgs/coverphoto.jpg"></div>
 
-    <div class="col col-12"><h3>Wedding Celebration</h3></div>    
+    <!-- <div class="col col-12"><h3>Wedding Celebration</h3></div>    
     Holy Rosary Catholic Church
     3617 Milam St, Houston, TX 77002
 
@@ -54,7 +63,7 @@
     <div class="col col-12"><h3>Wedding Reception</h3></div>    
     Evelyn’s park
     4400 Bellaire Blvd, Bellaire, TX 77401
-
+ -->
 
       </div> <!-- row -->
     </div> <!-- container -->

@@ -53,7 +53,7 @@
       Evelyn’s park
       4400 Bellaire Blvd, Bellaire, TX 77401
     </div>    
-    <div class="col col-6"><img src="imgs/coverphoto.jpg"></div>
+    <div class="col col-6"><img class="rounded float-left" src="imgs/coverphoto.jpg"></div>
 
     <!-- <div class="col col-12"><h3>Wedding Celebration</h3></div>    
     Holy Rosary Catholic Church

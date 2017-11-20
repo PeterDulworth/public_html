@@ -59,9 +59,9 @@
 		      <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
 		      <a class="nav-item nav-link" href="#">EVENTS</a>
 		      <a class="nav-item nav-link" href="#">RSVP</a>
-		      <a class="nav-item nav-link" href="#">TRAVEL</a>
+		      <a class="nav-item nav-link" href="travel.php">TRAVEL</a>
 		      <a class="nav-item nav-link" href="#">PHOTOS</a>
-		      <a class="nav-item nav-link" href="#">GIFT REGISTRY</a>
+		      <!-- <a class="nav-item nav-link" href="#">GIFT REGISTRY</a> -->
 		    </div>
 		  </div>
 		</nav>

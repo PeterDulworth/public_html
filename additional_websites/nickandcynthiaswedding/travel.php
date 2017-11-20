@@ -24,25 +24,37 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav">
-		      <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">EVENTS</a>
-		      <a class="nav-item nav-link" href="#">RSVP</a>
-		      <a class="nav-item nav-link" href="#">TRAVEL</a>
-		      <a class="nav-item nav-link" href="#">PHOTOS</a>
-		      <a class="nav-item nav-link" href="#">GIFT REGISTRY</a>
+		      <a class="nav-item nav-link active" href="index.php">HOME <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="events.php">EVENTS</a>
+		      <!-- <a class="nav-item nav-link" href="rsvp.php">RSVP</a> -->
+		      <a class="nav-item nav-link" href="travel.php">TRAVEL</a>
+		      <a class="nav-item nav-link" href="photos.php">PHOTOS</a>
+		      <!-- <a class="nav-item nav-link" href="#">GIFT REGISTRY</a> -->
 		    </div>
 		  </div>
 		</nav>
 
-      	<!-- alternate image source: https://s3.amazonaws.com/uploads.hitchedup.com/e8456da1-6535-4b7c-bf71-d92b061a74bb.jpg -->
-        <div class="col col-12 mx-auto"><img src="imgs/coverphoto.jpg" class="img-fluid cover-photo" alt="Responsive image"></div>
+    <!-- alternate image source: https://s3.amazonaws.com/uploads.hitchedup.com/e8456da1-6535-4b7c-bf71-d92b061a74bb.jpg -->
+    <!-- <div class="col col-12 mx-auto"><img src="imgs/coverphoto.jpg" class="img-fluid cover-photo" alt="Responsive image"></div> -->
 
-		<div class="col col-12"><h4 class="text-center">Please join us for our wedding celebration</h4></div><br><br><br>
-		<div class="col col-12"><h2 class="text-center">APRIL 28, 2018</h2></div>
+		<!-- <div class="col col-12"><h4 class="text-center">Please join us for our wedding celebration</h4></div><br><br><br> -->
+		<!-- <div class="col col-12"><h2 class="text-center">APRIL 28, 2018</h2></div> -->
 
-		<div class="col col-2 mx-auto"><img src="imgs/ampersand.png" class="mx-auto d-block"></div><br><br>
-		<br><br><br><br><br>
-		<div class="col col-12"><h3 class="text-center">Our Story</h3></div>
+		<!-- <div class="col col-2 mx-auto"><img src="imgs/ampersand.png" class="mx-auto d-block"></div><br><br> -->
+		<!-- <br><br><br><br><br> -->
+		<!-- <div class="col col-12"><h3 class="text-center">Our Story</h3></div> -->
+
+    <div class="col col-12"><h2>EVENTS</h2></div>    
+
+    <div class="col col-12"><h3>Wedding Celebration</h3></div>    
+    Holy Rosary Catholic Church
+    3617 Milam St, Houston, TX 77002
+
+
+    <div class="col col-12"><h3>Wedding Reception</h3></div>    
+    Evelyn’s park
+    4400 Bellaire Blvd, Bellaire, TX 77401
+
 
       </div> <!-- row -->
     </div> <!-- container -->
